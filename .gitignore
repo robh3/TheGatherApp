@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Sensitive configuration files
+*.env
+*.json
+!package.json
+!manifest.json
+!postcss.config.js
+!tailwind.config.js
+
+# Firebase service account keys
+*-firebase-*-adminsdk-*
