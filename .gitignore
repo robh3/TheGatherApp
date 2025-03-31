@@ -23,11 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Firebase credentials
-**/thegatherapp-firebase-adminsdk-fbsvc-e8e5cf19fa.json
-*.env
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
+*.json
+.env
+!.env.example
