@@ -103,6 +103,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Rob - [Your Email or LinkedIn]
+Rob Howard (mr dot robhoward at gmail.com)
 
 Project Link: [https://github.com/robh3/TheGatherApp](https://github.com/robh3/TheGatherApp)
