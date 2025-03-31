@@ -21,6 +21,19 @@ const guidesData = [
     pricePerHour: 65,
     languages: ['English', 'French'],
     availability: ['Weekdays', 'Mornings']
+<<<<<<< HEAD
+=======
+  },
+  {
+    id: 3,
+    name: 'Emma Chen',
+    specialty: 'Photography Tours',
+    bio: 'Professional photographer who knows all the best photo spots in the city.',
+    rating: 4.7,
+    pricePerHour: 55,
+    languages: ['English', 'Mandarin'],
+    availability: ['Weekends']
+>>>>>>> a8e4e10 (Initial commit of Gather App)
   }
 ];
 
@@ -49,7 +62,11 @@ function LocalGuides() {
       <h1 className="text-3xl font-bold mb-8 text-center">Local Guides</h1>
 
       {/* Filters */}
+<<<<<<< HEAD
       <div className="filters mb-8 grid md:grid-cols-3 gap-4">
+=======
+      <div className="filters mb-8 grid md:grid-cols-4 gap-4">
+>>>>>>> a8e4e10 (Initial commit of Gather App)
         <select
           value={filters.specialty}
           onChange={(e) => setFilters(prev => ({ ...prev, specialty: e.target.value }))}
@@ -58,6 +75,10 @@ function LocalGuides() {
           <option value="">All Specialties</option>
           <option value="City Tours">City Tours</option>
           <option value="Food & Culture">Food & Culture</option>
+<<<<<<< HEAD
+=======
+          <option value="Photography Tours">Photography Tours</option>
+>>>>>>> a8e4e10 (Initial commit of Gather App)
         </select>
 
         <select
@@ -69,6 +90,10 @@ function LocalGuides() {
           <option value="English">English</option>
           <option value="Spanish">Spanish</option>
           <option value="French">French</option>
+<<<<<<< HEAD
+=======
+          <option value="Mandarin">Mandarin</option>
+>>>>>>> a8e4e10 (Initial commit of Gather App)
         </select>
 
         <div className="rating-filter">
@@ -83,6 +108,17 @@ function LocalGuides() {
             className="w-full"
           />
         </div>
+<<<<<<< HEAD
+=======
+
+        <input
+          type="text"
+          placeholder="Search guides"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="border rounded p-2"
+        />
+>>>>>>> a8e4e10 (Initial commit of Gather App)
       </div>
 
       {/* Guides Grid */}

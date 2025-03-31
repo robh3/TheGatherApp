@@ -17,19 +17,17 @@
 .env.development.local
 .env.test.local
 .env.production.local
-.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Sensitive configuration files
+# Firebase credentials
+**/thegatherapp-firebase-adminsdk-fbsvc-e8e5cf19fa.json
 *.env
-*.json
-!package.json
-!manifest.json
-!postcss.config.js
-!tailwind.config.js
 
-# Firebase service account keys
-*-firebase-*-adminsdk-*
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -19,6 +19,27 @@ const activitiesData = [
     category: 'Workshop',
     location: 'Culinary Center',
     duration: '3 hours'
+<<<<<<< HEAD
+=======
+  },
+  {
+    id: 3,
+    name: 'Wine Tasting Experience',
+    description: 'Discover local wineries and flavors',
+    price: 65,
+    category: 'Tasting',
+    location: 'Wine District',
+    duration: '2.5 hours'
+  },
+  {
+    id: 4,
+    name: 'Street Art Photography Walk',
+    description: 'Capture urban art and hidden murals',
+    price: 35,
+    category: 'Photography',
+    location: 'Arts District',
+    duration: '2 hours'
+>>>>>>> a8e4e10 (Initial commit of Gather App)
   }
 ];
 
@@ -48,7 +69,11 @@ function BrowseActivities() {
       <h1 className="text-3xl font-bold mb-8 text-center">Discover Activities</h1>
 
       {/* Filters */}
+<<<<<<< HEAD
       <div className="filters mb-8 grid md:grid-cols-3 gap-4">
+=======
+      <div className="filters mb-8 grid md:grid-cols-4 gap-4">
+>>>>>>> a8e4e10 (Initial commit of Gather App)
         <select
           value={filters.category}
           onChange={(e) => setFilters(prev => ({ ...prev, category: e.target.value }))}
@@ -57,6 +82,11 @@ function BrowseActivities() {
           <option value="">All Categories</option>
           <option value="Tour">Tours</option>
           <option value="Workshop">Workshops</option>
+<<<<<<< HEAD
+=======
+          <option value="Tasting">Tastings</option>
+          <option value="Photography">Photography</option>
+>>>>>>> a8e4e10 (Initial commit of Gather App)
         </select>
 
         <input
@@ -78,6 +108,17 @@ function BrowseActivities() {
             className="w-full"
           />
         </div>
+<<<<<<< HEAD
+=======
+
+        <input
+          type="text"
+          placeholder="Search activities"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="border rounded p-2"
+        />
+>>>>>>> a8e4e10 (Initial commit of Gather App)
       </div>
 
       {/* Activities Grid */}
