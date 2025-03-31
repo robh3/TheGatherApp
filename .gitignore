@@ -23,25 +23,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-<<<<<<< HEAD
-# Firebase credentials
-**/thegatherapp-firebase-adminsdk-fbsvc-e8e5cf19fa.json
-*.env
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-=======
-# Sensitive configuration files
-*.env
+# Sensitive Credentials
 *.json
-!package.json
-!manifest.json
-!postcss.config.js
-!tailwind.config.js
+*.key
+*.p12
+.env
+firebase-adminsdk-*.json
 
-# Firebase service account keys
-*-firebase-*-adminsdk-*
->>>>>>> f9d4710 (Updates)
+# Prevent committing service account credentials
+*-firebase-adminsdk-*
