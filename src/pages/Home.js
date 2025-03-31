@@ -16,9 +16,6 @@ function Home() {
           </button>
         </div>
       </section>
-<<<<<<< HEAD
-      {/* Add more sections as needed */}
-=======
 
       {/* How It Works */}
       <section className="how-it-works container mx-auto py-16 px-4">
@@ -86,7 +83,6 @@ function Home() {
           </div>
         </div>
       </section>
->>>>>>> a8e4e10 (Initial commit of Gather App)
     </div>
   );
 }
